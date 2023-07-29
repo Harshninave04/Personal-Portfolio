@@ -4,6 +4,7 @@
 * {
     margin: 0;
     padding: 0;
+    /* background-color: #FFF3E2; */
 }
 
 body {
@@ -101,7 +102,6 @@ a:hover {
     max-height: 0;
     transition: all 0.3 ease-in-out;
 
-
 }
 
 .menu-links a {
@@ -149,13 +149,9 @@ a:hover {
 
 
 
-
-
-
-
 /* Section Area */
 
-/* section {
+section {
     padding-top: 4vh;
     height: 96vh;
     margin: 0 10rem;
@@ -163,29 +159,27 @@ a:hover {
     min-height: fit-content;
 }
 
-.section__pic-container {
+.section-container {
     display: flex;
 }
 
-/* Profile Section */
-/* #profile {
+#profile {
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 5rem;
+    height: 80vh;
 }
 
-.profile__pic {
+.section__pic-container {
     display: flex;
-    width: 400px;
     height: 400px;
+    width: 400px;
     margin: auto 0;
 }
 
 .section__text {
     align-self: center;
     text-align: center;
-
 }
 
 .section__text p {
@@ -194,6 +188,10 @@ a:hover {
 
 .section__text__p1 {
     text-align: center;
+    font-size: 1.5rem;
+    }
+    
+    .section__text__p2 {
     font-size: 1.75rem;
     margin-bottom: 1rem;
 }
@@ -210,7 +208,57 @@ a:hover {
     gap: 1rem;
 }
 
+/* Icons */
 .icon {
     cursor: pointer;
-    height: 4rem;
-} */
+    height: 3.2rem;
+    }
+    
+    /* Buttons : Resume and Contace Button */
+    
+    .btn-container {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+    
+    .btn {
+        font-weight: 600;
+        transition: all 300ms ease;
+        padding: 0.5rem;
+        height: 3rem;
+        width: 9rem;
+        border-radius: 2rem;
+    }
+    
+    .btn-color-1,
+    .btn-color-2 {
+        border: rgb(53, 53, 53) 0.15rem solid;
+    }
+    
+    .btn-color-1:hover,
+    .btn-color-2:hover {
+        cursor: pointer;
+    }
+    
+    .btn-color-1,
+    .btn-color-2:hover {
+        background: rgb(53, 53, 53);
+        color: white;
+    }
+    
+    .btn-color-1:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .btn-color-2 {
+        background: none;
+    }
+    
+    .btn-color-2:hover {
+        border: rgb(0, 0, 0) 0.15rem solid;
+    }
+    
+    .btn-container {
+        gap: 1rem;
+    }
