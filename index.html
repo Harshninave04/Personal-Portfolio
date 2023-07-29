@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<body>
+
+    <!-- For Desktop responsiveness, we are creating one hamburger icon -->
+    <nav id="Desktop-nav">
+        <div class="logo">Harsh Ninave</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#experiences">Experiences</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Connect</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- For mobile responsiveness, we are creating one hamburger icon -->
+    <nav id="hamburger-nav">
+        <div class="logo">Harsh Ninave</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#experiences" onclick="toggleMenu()">Experiences</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Connect</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section where profile picture and info placed -->
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.png" class="profile__pic" alt="Harsh Ninave profile picture" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Harsh Ninave</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download Resume
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact '">Contact Me
+                </button>
+            </div>
+            <div class="socials-container">
+                <img src="./assets/github.png" alt="My Github Profile" class="icon"
+                    onclick="location.href='https://github.com/Harshninave04'">
+                <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon"
+                    onclick="location.href='https://linkedin.com'">
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
