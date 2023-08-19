@@ -1,3 +1,5 @@
-# html-css-js-PortfolioTutorial1
-Here is the first tutorial which i'm following to make a Portfolio for me
-Working on making my portfolio by watching videos on youtube
+# My Portfolio
+
+"I am currently in the process of creating my portfolio,
+and I have commenced this endeavor by following a comprehensive tutorial.
+This tutorial, which I am diligently following, is helping me develop my portfolio through a series of instructional videos available on YouTube."
